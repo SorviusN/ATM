@@ -5,7 +5,10 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab02-ATM", "Lab02-ATM\Lab02-ATM.csproj", "{3839D354-FBB7-413B-8E8A-7A39DCA4C05F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTesting", "XUnitTesting\XUnitTesting.csproj", "{F3040332-75BB-4EF5-A28A-116F0FB1008A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTesting", "XUnitTesting\XUnitTesting.csproj", "{F3040332-75BB-4EF5-A28A-116F0FB1008A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3839D354-FBB7-413B-8E8A-7A39DCA4C05F} = {3839D354-FBB7-413B-8E8A-7A39DCA4C05F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
